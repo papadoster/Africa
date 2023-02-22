@@ -20,7 +20,7 @@ struct ContentView: View {
     func gridSwitch() {
         gridLayout = Array(repeating: .init(.flexible()), count: gridLayout.count % 3 + 1)
         gridColumn = gridLayout.count
-        print("Grid number \(gridColumn)")
+//        print("Grid number \(gridColumn)")
         
         switch gridColumn {
         case 1:
@@ -49,6 +49,8 @@ struct ContentView: View {
                                 AnimalListItemView(animal: animal)
                             } //: NAV LINK
                         } //: LOOP
+                        CreditsView()
+                            .modifier(CenterModdifier())
                     } //: LIST
                 } else {
                     ScrollView(.vertical, showsIndicators: false) {
@@ -70,7 +72,6 @@ struct ContentView: View {
                     HStack(spacing: 10) {
                         // LIST BUTTON
                         Button {
-                            print("list View is activated")
                             isGridViewActive = false
                             haptics.impactOccurred()
                         } label: {
@@ -82,7 +83,6 @@ struct ContentView: View {
                         // GRID BUTTON
                         
                         Button {
-                            print("Grid View is activated")
                             isGridViewActive = true
                             haptics.impactOccurred()
                             gridSwitch()

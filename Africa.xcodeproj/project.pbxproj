@@ -45,6 +45,8 @@
 		7F0FD3A029A43D4500500806 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FD39F29A43D4500500806 /* VideoPlayerView.swift */; };
 		7F0FD3A329A43FB000500806 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FD3A229A43FB000500806 /* VideoPlayerHelper.swift */; };
 		7FEF3B6429A5A1E400414CE0 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */; };
+		7FEF3B6629A5AD3400414CE0 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF3B6529A5AD3400414CE0 /* CreditsView.swift */; };
+		7FEF3B6929A5AEE900414CE0 /* CenterModdifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF3B6829A5AEE900414CE0 /* CenterModdifier.swift */; };
 		7FF6468C29A552E3002D1304 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468B29A552E3002D1304 /* LocationModel.swift */; };
 		7FF6468E29A55B80002D1304 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */; };
 		7FF6469029A5642F002D1304 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */; };
@@ -91,6 +93,8 @@
 		7F0FD39F29A43D4500500806 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		7F0FD3A229A43FB000500806 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
+		7FEF3B6529A5AD3400414CE0 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
+		7FEF3B6829A5AEE900414CE0 /* CenterModdifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterModdifier.swift; sourceTree = "<group>"; };
 		7FF6468B29A552E3002D1304 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -126,6 +130,7 @@
 		7F0FD34B29A2B31A00500806 /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				7FEF3B6729A5AEB900414CE0 /* Modifier */,
 				7F0FD3A129A43F8F00500806 /* Helper */,
 				7F0FD38829A2BEFB00500806 /* Extention */,
 				7F0FD38529A2BD9100500806 /* Model */,
@@ -205,6 +210,7 @@
 				7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */,
 				7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */,
 				7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */,
+				7FEF3B6529A5AD3400414CE0 /* CreditsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -234,6 +240,14 @@
 				7F0FD3A229A43FB000500806 /* VideoPlayerHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		7FEF3B6729A5AEB900414CE0 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				7FEF3B6829A5AEE900414CE0 /* CenterModdifier.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,12 +349,14 @@
 				7F0FD38A29A2BF3B00500806 /* CodableBundleExtention.swift in Sources */,
 				7FF6468E29A55B80002D1304 /* MapAnnotationView.swift in Sources */,
 				7F0FD34D29A2B31A00500806 /* AfricaApp.swift in Sources */,
+				7FEF3B6929A5AEE900414CE0 /* CenterModdifier.swift in Sources */,
 				7F0FD39C29A42FD900500806 /* VideoModel.swift in Sources */,
 				7F0FD37B29A2B72700500806 /* VideoListView.swift in Sources */,
 				7FF6468C29A552E3002D1304 /* LocationModel.swift in Sources */,
 				7FEF3B6429A5A1E400414CE0 /* AnimalGridItemView.swift in Sources */,
 				7F0FD39429A405CC00500806 /* InsetGalleryView.swift in Sources */,
 				7F0FD39E29A4305E00500806 /* VideoListItemView.swift in Sources */,
+				7FEF3B6629A5AD3400414CE0 /* CreditsView.swift in Sources */,
 				7F0FD37F29A2B75B00500806 /* GalleryView.swift in Sources */,
 				7FF6469029A5642F002D1304 /* MotionAnimationView.swift in Sources */,
 				7F0FD39229A4046000500806 /* HeadingView.swift in Sources */,
@@ -470,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Africa/Africa.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -488,13 +505,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.papadoster.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -503,6 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Africa/Africa.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -521,13 +543,17 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.papadoster.Africa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};
