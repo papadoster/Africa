@@ -44,6 +44,7 @@
 		7F0FD39E29A4305E00500806 /* VideoListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FD39D29A4305E00500806 /* VideoListItemView.swift */; };
 		7F0FD3A029A43D4500500806 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FD39F29A43D4500500806 /* VideoPlayerView.swift */; };
 		7F0FD3A329A43FB000500806 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F0FD3A229A43FB000500806 /* VideoPlayerHelper.swift */; };
+		7FEF3B6429A5A1E400414CE0 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */; };
 		7FF6468C29A552E3002D1304 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468B29A552E3002D1304 /* LocationModel.swift */; };
 		7FF6468E29A55B80002D1304 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */; };
 		7FF6469029A5642F002D1304 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */; };
@@ -89,6 +90,7 @@
 		7F0FD39D29A4305E00500806 /* VideoListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoListItemView.swift; sourceTree = "<group>"; };
 		7F0FD39F29A43D4500500806 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		7F0FD3A229A43FB000500806 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
+		7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		7FF6468B29A552E3002D1304 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				7F0FD39F29A43D4500500806 /* VideoPlayerView.swift */,
 				7FF6468D29A55B80002D1304 /* MapAnnotationView.swift */,
 				7FF6468F29A5642F002D1304 /* MotionAnimationView.swift */,
+				7FEF3B6329A5A1E400414CE0 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				7F0FD39C29A42FD900500806 /* VideoModel.swift in Sources */,
 				7F0FD37B29A2B72700500806 /* VideoListView.swift in Sources */,
 				7FF6468C29A552E3002D1304 /* LocationModel.swift in Sources */,
+				7FEF3B6429A5A1E400414CE0 /* AnimalGridItemView.swift in Sources */,
 				7F0FD39429A405CC00500806 /* InsetGalleryView.swift in Sources */,
 				7F0FD39E29A4305E00500806 /* VideoListItemView.swift in Sources */,
 				7F0FD37F29A2B75B00500806 /* GalleryView.swift in Sources */,
@@ -476,8 +480,8 @@
 				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,8 +513,8 @@
 				INFOPLIST_FILE = Africa/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
